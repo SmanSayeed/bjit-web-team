@@ -1,3 +1,9 @@
+*{
+  margin: 0;
+  padding:0;
+  box-sizing: border-box;
+}
+
 body {
     background: #fafafa url(https://jackrugile.com/images/misc/noise-diagonal.png);
     color: #444;
@@ -7,6 +13,21 @@ body {
   
   header h1{
       text-align: center;
+      margin:20px 0px;
+  }
+  header a{
+    display: block;
+    text-align: center;
+    background-color: rgb(129, 134, 185);
+    padding:20px;
+    border-radius: 10px;
+    text-decoration: none;
+    color: #fff;
+    margin:20px 40px;
+    
+  }
+  header a:hover{
+    background-color: rgb(60, 65, 124);
   }
 
   strong {
@@ -122,10 +143,12 @@ body {
     height: 200px;
     padding: 15px;
     border-radius: 10px;
-    border: 1px solid black;
-    background-color: #fff;
+    border: 1px solid #fff;
+    background-color: rgb(129, 134, 185);
+    text-decoration: none;
+    color: #fff;
   }
   .btn:hover{
-    background-color: black;
+    background-color: rgb(24, 30, 90);
     color: #fff;
   }
